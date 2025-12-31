@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # === CONFIGURATION API ===
 SENTIMENT_URL = "https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment-latest"
 SUMMARY_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
-# Remplacez ceci par votre propre token d'API Hugging Face
+
 headers = {"Authorization": "Bearer YOUR_HUGGING_FACE_TOKEN"}
 
 # === COMPTEURS ===
